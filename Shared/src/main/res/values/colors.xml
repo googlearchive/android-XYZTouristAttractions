@@ -15,11 +15,10 @@
   limitations under the License.
   -->
 
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<resources>
 
-    <item android:state_pressed="true"
-        android:color="#ee3c4b90" /> <!-- pressed -->
+    <color name="colorPrimary">#4e6cef</color>
+    <color name="colorPrimaryDark">#2a36b1</color>
+    <color name="colorAccent">#ff7043</color>
 
-    <item android:color="#ee5c6bc0" /> <!-- default -->
-
-</selector>
+</resources>
