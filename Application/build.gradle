@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.1.0'
+        classpath 'com.android.tools.build:gradle:1.2.0'
     }
 }
 
@@ -17,11 +17,12 @@ repositories {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:22.1.1'
     compile 'com.google.android.gms:play-services-location:7.3.0'
-    compile 'com.google.maps.android:android-maps-utils:0.3.2'
-    compile 'com.github.bumptech.glide:glide:3.5.2'
-    compile 'com.android.support:recyclerview-v7:22.1.1'
+    compile 'com.google.maps.android:android-maps-utils:0.3.4'
+    compile 'com.github.bumptech.glide:glide:3.6.0'
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:recyclerview-v7:22.2.0'
+    compile 'com.android.support:design:22.2.0'
     compile 'com.google.android.gms:play-services-wearable:7.3.0'
     compile 'com.android.support:support-v13:22.1.0'
     compile project(':Shared')
