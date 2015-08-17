@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright 2015 Google Inc. All rights reserved.
 
@@ -16,10 +17,6 @@
 
 <resources>
 
-    <dimen name="standard_margin">24dp</dimen>
-    <dimen name="small_margin">12dp</dimen>
-    <dimen name="tiny_margin">8dp</dimen>
-    <dimen name="image_size">140dp</dimen>
-    <dimen name="fab_margin">0dp</dimen>
+    <dimen name="fab_margin">8dp</dimen>
 
 </resources>

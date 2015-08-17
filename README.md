@@ -58,6 +58,8 @@ Some of the UI widgets and design patterns used in the mobile app include:
 * Window content and activity transitions based on the
 [Material guidelines][11]
 * Use of the [RecyclerView][12] widget
+* CoordinatorLayout[23] and FloatingActionButton[24] from the Design Support library[25]
+* Material animations such as activity and shared element transitions
 
 The wearable app uses a number of techniques and UI widgets as well:
 * Full screen app built off [GridViewPager][13] and [DotsPageIndicator][14]
@@ -65,7 +67,7 @@ The wearable app uses a number of techniques and UI widgets as well:
 [WatchViewStub][15] and [OnApplyWindowInsetsListener][16]
 * Use of a variety of other widgets from the [Wearable UI Library][17]
 ([DismissOverlayView][18], [ConfirmationActivity][19],
-[CardScrollView][20], [CircledImageView][21])
+[CardScrollView][20], [CircledImageView][21], [ActionPage][26])
 
 [1]: http://developer.android.com/wear/
 [2]: https://developer.android.com/google/play-services/
@@ -89,12 +91,16 @@ The wearable app uses a number of techniques and UI widgets as well:
 [20]: http://developer.android.com/reference/android/support/wearable/view/CardScrollView.html
 [21]: http://developer.android.com/reference/android/support/wearable/view/CircledImageView.html
 [22]: https://developer.android.com/training/wearables/apps/creating.html#Install
+[23]: https://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.html
+[24]: https://developer.android.com/reference/android/support/design/widget/FloatingActionButton.html
+[25]: http://android-developers.blogspot.com/2015/05/android-design-support-library.html
+[26]: http://developer.android.com/reference/android/support/wearable/view/ActionPage.html
 
 Pre-requisites
 --------------
 
-- Android SDK v22
-- Android Build Tools v22.0.1
+- Android SDK v23
+- Android Build Tools v23.0.0
 - Android Support Repository
 
 Screenshots

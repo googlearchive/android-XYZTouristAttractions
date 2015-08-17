@@ -12,6 +12,11 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
+/**
+ * A simple scale transition class to allow an element to scale in or out.
+ * This is used by the floating action button on the attraction detail screen
+ * when it appears and disappears during the Activity transitions.
+ */
 @TargetApi(Build.VERSION_CODES.LOLLIPOP)
 public class ScaleTransition extends Visibility {
 
@@ -19,24 +24,23 @@ public class ScaleTransition extends Visibility {
         super(context, attrs);
     }
 
-    public Animator createAnimation(View view, float startScale, float endScale, boolean appear) {
+    public Animator createAnimation(View view, float startScale, float endScale) {
         view.setScaleX(startScale);
         view.setScaleY(startScale);
         PropertyValuesHolder holderX = PropertyValuesHolder.ofFloat("scaleX", startScale, endScale);
         PropertyValuesHolder holderY = PropertyValuesHolder.ofFloat("scaleY", startScale, endScale);
-        ObjectAnimator animator = ObjectAnimator.ofPropertyValuesHolder(view, holderX, holderY);
-        return animator;
+        return ObjectAnimator.ofPropertyValuesHolder(view, holderX, holderY);
     }
 
     @Override
     public Animator onAppear(ViewGroup sceneRoot, View view, TransitionValues startValues,
                              TransitionValues endValues) {
-        return createAnimation(view, 0, 1, true);
+        return createAnimation(view, 0, 1);
     }
 
     @Override
     public Animator onDisappear(ViewGroup sceneRoot, View view, TransitionValues startValues,
                                 TransitionValues endValues) {
-        return createAnimation(view, 1, 0, false);
+        return createAnimation(view, 1, 0);
     }
 }
