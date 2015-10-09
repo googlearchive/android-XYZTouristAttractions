@@ -16,6 +16,8 @@ apiRefs:
     - android:android.support.v7.appcompat
     - android:android.support.v7.widget.RecyclerView
     - android:android.support.v7.widget.GridLayoutManager
+    - android:android.support.v4.content.ContextCompat
+    - android:android.support.v4.app.ActivityCompat
     - android:android.support.design.widget.FloatingActionButton
     - android:android.support.design.widget.CoordinatorLayout
     - android:com.google.android.gms.common.api.GoogleApiClient
