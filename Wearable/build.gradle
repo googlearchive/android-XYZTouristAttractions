@@ -18,9 +18,9 @@ repositories {
 }
 
 dependencies {
-    compile 'com.google.android.gms:play-services-location:7.8.0'
-    compile 'com.google.android.gms:play-services-wearable:7.8.0'
-    compile 'com.android.support:support-v13:23.0.1'
+    compile 'com.google.android.gms:play-services-location:8.1.0'
+    compile 'com.google.android.gms:play-services-wearable:8.1.0'
+    compile 'com.android.support:support-v13:23.1.0'
     compile 'com.google.android.support:wearable:1.3.0'
     compile project(':Shared')
 }
@@ -36,11 +36,14 @@ List<String> dirs = [
 android {
     compileSdkVersion 23
 
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         versionCode 1
         versionName "1.0"
+
+        targetSdkVersion 22
+
     }
 
     compileOptions {
@@ -60,19 +63,3 @@ android {
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
