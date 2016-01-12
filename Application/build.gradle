@@ -17,14 +17,14 @@ repositories {
 }
 
 dependencies {
-    compile 'com.google.android.gms:play-services-location:8.1.0'
+    compile 'com.google.android.gms:play-services-location:8.4.0'
     compile 'com.google.maps.android:android-maps-utils:0.3.4'
     compile 'com.github.bumptech.glide:glide:3.6.1'
     compile 'com.android.support:appcompat-v7:23.0.0'
     compile 'com.android.support:recyclerview-v7:23.0.0'
     compile 'com.android.support:design:23.0.0'
-    compile 'com.google.android.gms:play-services-wearable:8.1.0'
-    compile 'com.android.support:support-v13:23.1.0'
+    compile 'com.google.android.gms:play-services-wearable:8.4.0'
+    compile 'com.android.support:support-v13:23.1.1'
     compile project(':Shared')
     wearApp project(':Wearable')
 }
