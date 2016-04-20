@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.android.tools.build:gradle:2.0.0'
     }
 }
 
@@ -24,7 +24,7 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:23.0.0'
     compile 'com.android.support:design:23.0.0'
     compile 'com.google.android.gms:play-services-wearable:8.4.0'
-    compile 'com.android.support:support-v13:23.1.1'
+    compile 'com.android.support:support-v13:23.3.0'
     compile project(':Shared')
     wearApp project(':Wearable')
 }
@@ -40,7 +40,7 @@ List<String> dirs = [
 android {
     compileSdkVersion 23
 
-    buildToolsVersion "23.0.2"
+    buildToolsVersion "24.0.0 rc3"
 
     defaultConfig {
         minSdkVersion 18
