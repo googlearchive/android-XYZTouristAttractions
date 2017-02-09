@@ -18,11 +18,13 @@ repositories {
 }
 
 dependencies {
-    compile 'com.google.android.gms:play-services-location:10.0.1'
+    compile 'com.google.android.gms:play-services-maps:10.0.1'
     compile 'com.google.android.gms:play-services-wearable:10.0.1'
     compile 'com.android.support:support-v13:25.0.1'
 
-    compile 'com.google.android.support:wearable:1.4.0'
+    provided 'com.google.android.wearable:wearable:2.0.0'
+
+    compile 'com.google.android.support:wearable:2.0.0'
 
     compile project(':Shared')
 }
@@ -44,7 +46,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        targetSdkVersion 22
+        targetSdkVersion 25
 
     }
 
