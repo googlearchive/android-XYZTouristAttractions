@@ -21,11 +21,11 @@ dependencies {
     compile 'com.google.android.gms:play-services-location:11.8.0'
     compile 'com.google.maps.android:android-maps-utils:0.5'
     compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile 'com.android.support:appcompat-v7:27.0.2'
-    compile 'com.android.support:recyclerview-v7:27.0.2'
-    compile 'com.android.support:design:27.0.2'
+    compile 'com.android.support:appcompat-v7:27.1.0'
+    compile 'com.android.support:recyclerview-v7:27.1.0'
+    compile 'com.android.support:design:27.1.0'
     compile 'com.google.android.gms:play-services-wearable:11.8.0'
-    compile 'com.android.support:support-v13:27.0.2'
+    compile 'com.android.support:support-v13:27.1.0'
     compile project(':Shared')
     wearApp project(':Wearable')
 }
@@ -41,7 +41,7 @@ List<String> dirs = [
 android {
     compileSdkVersion 27
 
-    buildToolsVersion "27.0.2"
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
         minSdkVersion 18

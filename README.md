@@ -33,7 +33,7 @@ transfer the image assets to the wearable (in practice this delay won't be
 noticeable to users as they will only be notified once the data has been sent).
 
 This sample aims to demonstrate a number of different Android APIs and concepts
-relating to [Android Wear][1] and location using [Google Play Services][2]:
+relating to [Wear][1] and location using [Google Play Services][2]:
 * Trigger a mobile notification that uses [WearableExtender][3] to customize the
 display on the wearable
 * Transmit data from the mobile app to the wearable (including binary blobs
@@ -100,7 +100,7 @@ Pre-requisites
 --------------
 
 - Android SDK 27
-- Android Build Tools v27.0.2
+- Android Build Tools v27.0.3
 - Android Support Repository
 
 Screenshots
