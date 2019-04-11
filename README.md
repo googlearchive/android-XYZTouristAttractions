@@ -99,8 +99,8 @@ The wearable app uses a number of techniques and UI widgets as well:
 Pre-requisites
 --------------
 
-- Android SDK 27
-- Android Build Tools v27.0.3
+- Android SDK 28
+- Android Build Tools v28.0.3
 - Android Support Repository
 
 Screenshots
@@ -129,7 +129,7 @@ submitting a pull request through GitHub. Please see CONTRIBUTING.md for more de
 License
 -------
 
-Copyright 2017 The Android Open Source Project, Inc.
+Copyright 2019 The Android Open Source Project, Inc.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for

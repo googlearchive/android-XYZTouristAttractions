@@ -22,7 +22,6 @@ import android.graphics.Rect;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.view.GestureDetectorCompat;
 import android.support.wearable.view.DismissOverlayView;
 import android.support.wearable.view.DotsPageIndicator;
 import android.support.wearable.view.GridViewPager;
@@ -33,6 +32,8 @@ import android.view.View;
 import android.view.WindowInsets;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
+
+import androidx.core.view.GestureDetectorCompat;
 
 import com.example.android.xyztouristattractions.R;
 import com.example.android.xyztouristattractions.common.Attraction;

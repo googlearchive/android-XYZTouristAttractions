@@ -17,9 +17,10 @@
 package com.example.android.xyztouristattractions.ui;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.View;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Simple RecyclerView subclass that supports providing an empty view (which
